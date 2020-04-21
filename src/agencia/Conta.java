@@ -9,6 +9,7 @@ public abstract class Conta {
     protected int numeroConta;
     protected double saldo;
     protected String tipo;
+    protected String local;
 
     //Métodos com o mesmo nome
     //Porém com assinatura e comportamento diferentes
