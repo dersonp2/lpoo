@@ -4,12 +4,19 @@ package agencia;
 // Classe para servir modelo
 // Não pode ser instancia
 public abstract class Conta {
- 
-    protected String titular;
+    
+    protected Cliente cliente;
     protected int numeroConta;
     protected double saldo;
     protected String tipo;
-    protected String local;
+
+    public Cliente getCliente() {
+        return cliente;
+    }
+
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
+    }
 
     //Métodos com o mesmo nome
     //Porém com assinatura e comportamento diferentes
@@ -38,14 +45,6 @@ public abstract class Conta {
     }
 
     public  abstract boolean sacar(double valor);
-
-    public String getTitular() {
-        return titular;
-    }
-
-    public void setTitular(String titular) {
-        this.titular = titular;
-    }
 
     public int getNumeroConta() {
         return numeroConta;

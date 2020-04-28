@@ -10,8 +10,8 @@ public class ContaPoupanca extends Conta {
         System.out.println("Conta Poupança");
     }
     
-    public void ContaPoupanca(String titular, int numConta, double saldo, double poupanca) {
-        this.titular = titular;
+    public void ContaPoupanca(Cliente c, int numConta, double saldo, double poupanca) {
+        this.cliente = c;
         this.numeroConta = numConta;
         this.saldo = saldo;
         this.poupanca = poupanca;

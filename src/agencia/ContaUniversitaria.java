@@ -11,8 +11,8 @@ public class ContaUniversitaria extends Conta{
     }
     
    
-    public void ContaUniversitaria(String titular, String curso, int numConta, double saldo){
-        this.titular = titular;
+    public void ContaUniversitaria(Cliente c, String curso, int numConta, double saldo){
+        this.cliente = c;
         this.curso = curso;
         this.numeroConta = numConta;
         this.saldo = saldo;

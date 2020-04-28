@@ -17,8 +17,8 @@ public class ContaEspecial extends Conta {
     
     
     
-    public void ContaEspecial(String titular, int numConta, double saldo, double limite) {
-        this.titular = titular;
+    public void ContaEspecial(Cliente c, int numConta, double saldo, double limite) {
+        this.cliente = c;
         this.numeroConta = numConta;
         this.saldo = saldo;
         this.limite = limite;
