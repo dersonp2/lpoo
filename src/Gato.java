@@ -5,7 +5,7 @@
  */
 /**
  *
- * @author Anderson
+ * @author Anderson Soares
  */
 public class Gato extends Animal{
         
